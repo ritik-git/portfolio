@@ -12,14 +12,14 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/background.png';
+import heroImage from '../images/freepik__create-a-3d-cartoonstyle-character-resembling-a-yo__69399.png';
 import porfolioImage4 from '../images/portfolio/donations.jpg';
 import porfolioImage2 from '../images/portfolio/galileo.jpg';
 import porfolioImage5 from '../images/portfolio/github-actions.jpg';
 import porfolioImage3 from '../images/portfolio/osiris.jpg';
 import porfolioImage6 from '../images/portfolio/web-app.jpg';
 import porfolioImage1 from '../images/portfolio/yoda.jpg';
-import profilepic from '../images/profilepic.png';
+import profilepic from '../images/1678947645378.jpg';
 import {
   About,
   ContactSection,
@@ -52,14 +52,12 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 
 export const homeData: Home = {
   imageSrc: heroImage,
-  name: `I'm Fazal Abbas.`,
+  name: `I'm Ritik Galgate.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working at{' '}
-        <strong className="text-stone-100">Careem</strong>, my enthusiasm lies in crafting sophisticated and
-        maintainable code to address intricate challenges and provide value to users.My background includes the
-        development of scalable, high-performance, and user-centric web solutions.
+        I’m a <strong className="text-stone-100">Full Stack and Mobile Developer</strong> with a passion for creating
+        scalable applications and always eager to learn new technologies and improve my craft.
       </p>
     </>
   ),
@@ -76,19 +74,22 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      As a <strong>software engineer</strong>, I am passionate about creating elegant, maintainable code that solves
-      complex problems and delivers value to users. With proficiency in a variety of technologies, including{' '}
-      <strong>ReactJS,AngularJS, NextJS, NodeJS, TypeScript, and Redux</strong>, I have experience developing scalable,
-      performant, and user-friendly web solutions.
+      As a <strong>Software Engineer</strong> passionate about building scalable, efficient applications, I specialize
+      in{' '}
+      <strong>
+        ReactJS, React Native, Next.js, Spring Boot, Firebase Messaging, Flutterflow, Microservices, Docker, AWS, Redux
+      </strong>
+      . I have expertise in UI libraries and solving complex DSA problems (100+ solved), turning challenges into
+      real-world solutions.
     </>
   ),
   aboutItems: [
-    {label: 'Location', text: 'Lahore, Pakistan', Icon: MapIcon},
+    {label: 'Location', text: 'Indore, India', Icon: MapIcon},
     {label: 'Age', text: '24', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Pakistani', Icon: FlagIcon},
-    {label: 'Interests', text: 'Learning new technologies', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Punjab (PUCIT)', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Careem (Uber Inc.)', Icon: BuildingOffice2Icon},
+    {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Solving DSA, Learning New Tech', Icon: SparklesIcon},
+    {label: 'Education', text: 'Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'MindCrew Technologies Pvt. Ltd.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -140,13 +141,13 @@ export const portfolioItems: PortfolioItem[] = [
 
 export const education: TimelineItem[] = [
   {
-    date: 'Sep 2017 - Jul 2021',
-    location: 'University of Punjab (PUCIT)',
-    title: 'BS Software Engineering',
+    date: 'Sep 2019 - Jul 2023',
+    location: 'Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)',
+    title: 'B.Tech. Software Engineering',
     content: (
       <p>
-        <strong style={{color: '#f97316 !important'}}>Skills:</strong> React.js · Next.js · Node.js · TypeScript ·
-        Redux.js · Redux Thunk · Gitlab · Git · Ant Design · GitHub{' '}
+        <strong style={{color: '#f97316 !important'}}>Skills:</strong> React.js · Next.js · Java SpringBoot · TypeScript
+        · Redux.js · Redux Thunk · Gitlab · Git · GitHub{' '}
       </p>
     ),
   },
@@ -154,27 +155,25 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'July 2022 - Present',
-    location: 'Lahore, Punjab Pakistan',
-    title: 'Software Engineer at Careem',
+    date: 'July 2022 - January 2023',
+    location: 'Indore, India',
+    title: 'Software Engineer Intern at SolarHood',
     content: (
       <p>
-        <strong style={{color: '#f97316 !important'}}>Skills:</strong> jQuery · Tailwind CSS · Web Engineering · Amazon
-        Web Services (AWS) · docker · Software Deployment · Agile Methodologies · Kubernetes · JavaServer Pages (JSP) ·
-        AngularJS · Gitlab · Ant Design · Jenkins · TypeScript · React.js · GitHub · Redux.js · Cascading Style Sheets
-        (CSS) · Bootstrap · JavaScript · Redux Thunk · Go (Programming Language)
+        <strong style={{color: '#f97316'}}>Skills: </strong>
+        Next js · React Native · Tailwind CSS · Web Engineering · Amazon Web Services (AWS) · Docker · Software Deployment ·
+        GitLab · TypeScript · React.js · GitHub · Redux.js · Cascading Style Sheets (CSS) · Bootstrap · JavaScript ·
+        Redux Thunk · Microservices · FlutterFlow · Firebase
       </p>
     ),
   },
   {
-    date: 'August 2021 - June 2022',
-    location: 'Lahore, Punjab Pakistan',
-    title: 'Software Engineer at Munch:ON',
+    date: 'July 2023 - Present',
+    location: 'Indore, India',
+    title: 'Software Engineer at MindCrew Technologies Pvt. Ltd.',
     content: (
       <p>
-        Munch:ON was a product-based business that offered meal services in KSA and the UAE. I worked on this product's
-        web application to maintain it and add a lot of new features including favourite meals, adding items to the cart
-        and placing order from cart, in-app tutorials and many others.
+       Mindcrew Technologies is a dynamic startup where I worked on diverse technologies across multiple projects. This experience allowed me to broaden my skill set, tackle various challenges, and successfully complete numerous projects. I was honored to receive the Best Personality Award, reflecting my teamwork, adaptability, and problem-solving mindset.
         <span style={{display: 'block', marginTop: '10px'}}>
           <strong style={{color: '#f97316 !important'}}>Skills:</strong> jQuery · Tailwind CSS · TypeScript · React.js ·
           GitHub · Redux.js · Node.js · Next.js · Cascading Style Sheets (CSS) · Bootstrap · JavaScript · Redux Thunk{' '}
@@ -253,31 +252,31 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'ranafazalabbasjoyia@gmail.com',
-      href: 'mailto:ranafazalabbasjoyia@gmail.com',
+      text: 'ritikgalgate38@gmail.com',
+      href: 'mailto:ritikGalgate@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Lahore Punjab, Pakistan',
-      href: 'https://maps.app.goo.gl/Cw3YU4yxsnjadtBX6',
+      text: 'Indore MP, India',
+      href: 'https://maps.app.goo.gl/niCZXGvegM9AZdyD9',
     },
     {
       type: ContactType.Instagram,
-      text: '@fazal_joyia.js',
-      href: 'https://www.instagram.com/fazal_joyia.js',
+      text: 'r_i_t_i_k_27',
+      href: 'https://www.instagram.com/r_i_t_i_k_27/',
     },
     {
       type: ContactType.Github,
-      text: 'fazaljoyia',
-      href: 'https://github.com/fazaljoyia',
+      text: 'Ritik-git',
+      href: 'https://github.com/ritik-git',
     },
   ],
 };
 
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/fazaljoyia'},
-  {label: 'FaceBook', Icon: FacebookIcon, href: 'https://www.facebook.com/FazalJoyia0786?mibextid=ZbWKwL'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/fazal-abbas-careem/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/fazal_joyia.js/'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ritik-git'},
+  {label: 'FaceBook', Icon: FacebookIcon, href: 'https://www.facebook.com/hritik.galgate'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ritik-galgate-746437250/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/r_i_t_i_k_27/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/Fazal__Joyia'},
 ];

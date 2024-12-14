@@ -30,6 +30,7 @@ html {
   -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
   height: 100vh;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -46,6 +47,8 @@ body {
     sans-serif;
   // background-color: #fafafa;
   background-color: black !important;
+  scroll-behavior: smooth;
+  
 }
 
 td,
@@ -121,3 +124,16 @@ span {
 .home-item{
   background-color: black !important;
 }
+
+// @media (prefers-color-scheme: light) {
+//   :root {
+//     color: #213547;
+//     background-color: #ffffff;
+//   }
+//   a:hover {
+//     color: #747bff;
+//   }
+//   button {
+//     background-color: #f9f9f9;
+//   }
+// }

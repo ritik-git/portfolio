@@ -22,13 +22,14 @@ const Resume: FC = memo(() => {
             <TimelineItem item={item} key={`${item.title}-${index}`} />
           ))}
         </ResumeSection>
-        <ResumeSection title="Skills">
-          <div
+        {/* <ResumeSection title="Skills"> */}
+        {/* </ResumeSection> */}
+          {/* <div
             className="grid grid-cols-1 gap-6 md:grid-cols-2"
-            style={{marginTop: '40px', display: 'flex', flexWrap: 'wrap'}}>
+            style={{marginTop: '40px', display: 'flex', flexWrap: 'wrap'}}> */}
             <Techstack />
-          </div>
-        </ResumeSection>
+          {/* </div> */}
+        
         <ResumeSection title="Tools">
           <div
             className="grid grid-cols-1 gap-6 md:grid-cols-2"

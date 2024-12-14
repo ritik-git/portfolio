@@ -5,7 +5,7 @@ import GitHubCalendar from 'react-github-calendar';
 function Github() {
   return (
     <Row style={{justifyContent: 'center', paddingBottom: '10px'}}>
-      <GitHubCalendar blockMargin={5} blockSize={20} colorScheme="dark" fontSize={16} username="fazaljoyia" />
+      <GitHubCalendar blockMargin={5} blockSize={20} colorScheme="dark" fontSize={16} username="ritik-git" />
     </Row>
   );
 }
