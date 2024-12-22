@@ -16,7 +16,7 @@ const Home: FC = memo(() => {
   }, []);
 
   const handleDownload = () => {
-    const resumeUrl = '/Ritik-Resume.pdf';
+    const resumeUrl = '/portfolio/Ritik-Resume.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Ritik-Resume.pdf';
