@@ -3,8 +3,8 @@
   "version": "2.0.1",
   "private": true,
   "scripts": {
-    "build": "npm run compile && next build && next export -o docs",
-    "deploy": "gh-pages -d docs -b gh-pages -t true",
+    "build": "npm run compile && next build",
+    "deploy": "gh-pages -d out -b gh-pages -t true",
     "clean": "rm -rf build-tsc .next",
     "compile": "npx tsc --build --verbose",
     "dev": "npm run compile && next dev",
@@ -12,6 +12,7 @@
     "sitemap": "npx next-sitemap",
     "next": "next"
   },
+  "homepage": "https://github.com/ritik-git/portfolio",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -20,8 +21,9 @@
     "@react-spring/web": "^9.7.5",
     "autoprefixer": "^10.4.14",
     "classnames": "^2.3.2",
+    "export": "^0.1.337",
     "framer-motion": "^11.14.4",
-    "next": "^15.1.0",
+    "next": "^15.1.2",
     "nodemailer": "^6.9.16",
     "react": "^18.2.0",
     "react-bootstrap": "^2.2.1",

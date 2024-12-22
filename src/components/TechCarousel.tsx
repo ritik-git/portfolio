@@ -32,7 +32,7 @@ function TechCarousel() {
     slidesToShow: 4, // Number of visible slides
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000, // Auto slide every 2 seconds
+    autoplaySpeed: 1000, // Auto slide every 2 seconds
     cssEase: "linear",
   };
 

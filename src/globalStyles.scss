@@ -137,3 +137,10 @@ span {
 //     background-color: #f9f9f9;
 //   }
 // }
+.whatsapp-icon {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}

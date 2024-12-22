@@ -11,14 +11,13 @@ import FacebookIcon from '../components/Icon/FacebookIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+
 import heroImage from '../images/freepik__create-a-3d-cartoonstyle-character-resembling-a-yo__69399.png';
-import porfolioImage4 from '../images/portfolio/donations.jpg';
-import porfolioImage2 from '../images/portfolio/galileo.jpg';
-import porfolioImage5 from '../images/portfolio/github-actions.jpg';
-import porfolioImage3 from '../images/portfolio/osiris.jpg';
-import porfolioImage6 from '../images/portfolio/web-app.jpg';
-import porfolioImage1 from '../images/portfolio/yoda.jpg';
+import porfolioImage4 from '../images/portfolio/Habiters.png';
+import porfolioImage2 from '../images/portfolio/cuppa.png';
+import porfolioImage5 from '../images/portfolio/leetcode.png';
+import porfolioImage3 from '../images/portfolio/icons8-geeksforgeeks-480.png';
+
 import profilepic from '../images/1678947645378.jpg';
 import {
   About,
@@ -95,47 +94,43 @@ export const aboutData: About = {
 
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Galileo',
+    title: 'Cuppa Leads',
     description:
-      'Developing state-of-the-art dynamic configuration and experimentation platform named Galileo. Galileo enables the organization to run A/B testing, multivariate testing, feature rollouts as well as providing reliable solution for dynamic configuration. In just a few months after a first release, we were able to completely deprecate most of external vendors and enabled client-side experimentation across the company with unprecedented reliability and simplicity.',
-    url: 'https://blog.careem.com/en/galileo-analysis-and-reporting-of-experiments/',
-    image: porfolioImage2,
+      'Cuppa Leads is a project that filters leads and sends personalized emails using Mailgun. The leads are processed through Sales-Navigator, and AI-based prompts are used to generate personalized email content for each user. This solution automates the lead outreach process and provides efficient, personalized communication.',
+    url: 'https://app.b2bleadz.tech/#/Email-Templates', // Replace with the actual link
+    image: porfolioImage2, // Replace with the appropriate image
   },
 
   {
-    title: 'Donation CMS',
+    title: 'Habiters',
     description:
-      'Build a Donation CMS for donation mini app to change the donations text in the app dynamically instead of manual changes in the app by pushing build of app again.',
-    url: 'https://www.careem.com/en-AE/donations/',
-    image: porfolioImage4,
+      'Habiters is a habit-tracking application developed using Flutterflow. The app features personalized notifications through Firebase Messaging to keep users engaged and motivated to track and complete their daily habits.',
+    url: 'https://play.google.com/store/apps/details?id=com.mycompany.habitly&hl=en_IN', // Replace with the actual link
+    image: porfolioImage4, // Replace with the appropriate image
   },
+
+  // {
+  //   title: 'Full-Stack Portfolio Website',
+  //   description:
+  //     'This full-stack portfolio website showcases my development projects, including both frontend and backend solutions. The site is built with React.js for the frontend, featuring dynamic components and styled with modern design techniques, and integrated with a backend API to handle contact form submissions and display portfolio items.',
+  //   url: 'https://your-portfolio-link.com', // Replace with the actual link
+  //   image: porfolioImage1, // Replace with the appropriate image
+  // },
+
   {
-    title: 'Osiris',
-    description: `The inbuilt tool employed at Careem serves as a versatile solution for managing data configurations. Integrated with Slack and Jira, it automates the generation of tickets and facilitates Slack notifications. The tool's functionalities extend to the creation of Kafka topics, database connections, events, and SQL jobs crucial to Careem's operations. The individual has actively contributed to the development of numerous features within this tool, making it an instrumental asset. Its capabilities streamline the automation of repetitive tasks, thereby enhancing overall efficiency in various aspects of Careem's workflow.`,
-    url: '',
-    image: porfolioImage3,
+    title: 'Geeks for Geeks Profile',
+    description:
+      'Check out my Geeks for Geeks profile where I contribute to and solve various Data Structures and Algorithms problems. The platform is a great resource for learning and improving coding skills. I have solved more than 100 problems.',
+    url: 'https://www.geeksforgeeks.org/user/smilinghritik/', // Replace with your Geeks for Geeks profile URL
+    image: porfolioImage3, // Replace with the appropriate image or icon
   },
 
   {
-    title: 'Github Migration',
-    description: `I played a key role in a significant GitHub migration project within our team, where our primary responsibility was to seamlessly transfer approximately 2700 organizational repositories from Bitbucket or GitLab to GitHub. Subsequently, we undertook the task of deprecating Jenkins for service deployment, opting for the implementation of GitHub Actions workflows across nearly 760 repositories. My specific contribution involved enhancing around 80 repositories by integrating GitHub Actions and, in some cases, implementing Dockerization for services that had not been dockerized previously. This initiative aimed to streamline our development and deployment processes, leveraging GitHub's robust features for a more efficient and cohesive workflow.`,
-    url: 'https://blog.careem.com/?s=donations',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Yoda',
+    title: 'LeetCode Profile',
     description:
-      'Building a highly scalable platform for managing end-to-end machine learning lifecycle which is called Yoda. Yoda provides users with the tools necessary to develop, deploy, and improve machine learning models, automate data workflows, accelerate data processing, and optimize related functionality. One of the key feature is called "one click deployment" which is pretty self-descriptive :)',
-    url: 'https://medium.com/careem-tech/yoda-scaling-machine-learning-careem-d4bc8b1be195',
-    image: porfolioImage1,
-  },
-
-  {
-    title: 'Customer Web App',
-    description: `
-    The customer web application stands as a public web portal, providing a user-friendly interface for individuals seeking to initiate current bookings or plan future reservations without the need for an account. This platform caters to the convenience of guests, allowing them to effortlessly create bookings in real-time and schedule future reservations through the intuitive web portal. By eliminating the requirement for user accounts, the portal ensures a seamless and accessible experience for customers, enhancing their ability to engage with the booking process effortlessly. This customer-centric approach not only simplifies immediate bookings but also encourages individuals to plan and schedule their future reservations with ease, contributing to a streamlined and user-friendly booking experience.`,
-    url: 'https://app.careem.com',
-    image: porfolioImage6,
+      'Visit my LeetCode profile to see my progress in solving coding problems and participating in contests. LeetCode offers a variety of challenges to enhance problem-solving and algorithmic skills.',
+    url: 'https://leetcode.com/u/ritikgalgate38/', // Replace with your LeetCode profile URL
+    image: porfolioImage5, // Replace with the appropriate image or icon
   },
 ];
 
@@ -278,5 +273,5 @@ export const socialLinks: Social[] = [
   {label: 'FaceBook', Icon: FacebookIcon, href: 'https://www.facebook.com/hritik.galgate'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ritik-galgate-746437250/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/r_i_t_i_k_27/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/Fazal__Joyia'},
+ 
 ];

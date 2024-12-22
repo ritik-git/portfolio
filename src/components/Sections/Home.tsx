@@ -16,10 +16,10 @@ const Home: FC = memo(() => {
   }, []);
 
   const handleDownload = () => {
-    const resumeUrl = '/Resume.pdf';
+    const resumeUrl = '/Ritik-Resume.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'Resume.pdf';
+    link.download = 'Ritik-Resume.pdf';
     link.click();
   };
 

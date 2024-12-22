@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
+
 
 // Function to calculate age more accurately
 const calculateAge = (birthDate: Date) => {
@@ -23,9 +24,10 @@ export const AgeDisplay = () => {
       const newAge = calculateAge(birthDate);
       setAge(newAge);
     }, 50); // Every 50ms to simulate dynamic changes
-
+  
     return () => clearInterval(interval); // Cleanup interval on component unmount
-  }, []);
+  }, []);  // Leave the dependency array empty since birthDate doesn't change
+  
 
   // Ensure rendering only if computed in the browser
   if (age === null) return <div className="text-2xl font-bold text-white">Calculating...</div>;

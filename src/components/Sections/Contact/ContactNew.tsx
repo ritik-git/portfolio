@@ -1,6 +1,6 @@
 // import {DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon} from '@heroicons/react/24/outline';
 
-import {FC, memo, useEffect, useRef, useState} from 'react';
+import {FC, memo, useEffect, useRef} from 'react';
 
 // import {contact, SectionId} from '../../../data/data';
 import {SectionId} from '../../../data/data';
