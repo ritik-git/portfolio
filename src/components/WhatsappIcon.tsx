@@ -29,7 +29,7 @@ const WhatsAppFloatingButton: FC = () => {
             }}
           >
             <img
-              src="/whatsapp.png"
+              src="/portfolio/whatsapp.png"
               alt="WhatsApp"
               style={{
                 width: "50px",
@@ -51,7 +51,7 @@ const WhatsAppFloatingButton: FC = () => {
             }}
           >
             <img
-              src="/linkedin.png" // Ensure LinkedIn icon is present
+              src="/portfolio/linkedin.png" // Ensure LinkedIn icon is present
               alt="LinkedIn"
               style={{
                 width: "50px",
@@ -81,7 +81,7 @@ const WhatsAppFloatingButton: FC = () => {
         }}
       >
         <img
-          src="/message.png" // Placeholder icon for menu, replace with your own
+          src="/portfolio/message.png" // Placeholder icon for menu, replace with your own
           alt="Menu"
           style={{
             width: "30px",
