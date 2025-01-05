@@ -163,7 +163,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'July 2023 - Present',
+    date: 'April 2023 - Present',
     location: 'Indore, India',
     title: 'Software Engineer at MindCrew Technologies Pvt. Ltd.',
     content: (
